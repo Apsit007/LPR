@@ -1,0 +1,16 @@
+.oblique {
+  display: inline-block;
+  position: relative;
+  background-color: #ec8b0e;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+
+.oblique .nav {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}

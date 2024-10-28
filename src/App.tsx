@@ -1,6 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Nav from './layout/nav'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       //content render
         <Route path="/*" element={
           <>
-
+            <Nav />
           </>
         } />
 
