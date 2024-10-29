@@ -10,7 +10,8 @@ export default defineConfig({
     UnpluginIcons({
       jsx: "react",
       compiler: "jsx",
-      autoInstall: true
+      // autoInstall: true,
+
     }),
     UnpluginFonts({
       google: {

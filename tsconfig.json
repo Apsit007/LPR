@@ -1,7 +1,34 @@
 {
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "DOM.Iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "types": [
+      "unplugin-icons/types/react"
+    ],
+    "allowJs": false,
+    "strict": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "skipLibCheck": false
+  },
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
   ]
 }
