@@ -1,0 +1,24 @@
+.MuiDataGrid-columnSeparator {
+  display: block !important;
+}
+.infoside {
+    overflow-y: auto; /* Ensures the scrollbar only shows if content overflows */
+  }
+  
+  .infoside::-webkit-scrollbar {
+    width: 8px;         /* Width of the scrollbar */
+    height: 8px;        /* Height of the scrollbar */
+  }
+  
+  .infoside::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Light gray background for the scrollbar track */
+  }
+  
+  .infoside::-webkit-scrollbar-thumb {
+    background-color: #a0a0a0; /* Darker gray color for the scrollbar thumb */
+    border-radius: 4px;        /* Rounded corners */
+  }
+  
+  .infoside::-webkit-scrollbar-thumb:hover {
+    background-color: #888888; /* Slightly darker gray on hover */
+  }
