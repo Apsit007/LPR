@@ -110,7 +110,6 @@ function Search() {
 
     const handleMoreDetail = (id: number) => {
         setIsFullWidth((prev) => !prev);
-        // Additional logic for fetching details can be added here
     };
 
 
